@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SNAPTAP | Interactive Photo Booth Experience</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <div class="logo">SNAPTAP</div>
+        <nav>
+            <ul>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <a href="#contact" class="btn nav-btn">Book Now</a>
+    </header>
+
+    <section class="hero">
+        <div class="hero-content">
+            <h1>The Ultimate Interactive Experience</h1>
+            <p>Elevate your event with SNAPTAP's premium photo booth service.</p>
+            <a href="#contact" class="btn">Check Availability</a>
+        </div>
+    </section>
+
+    <section id="experience" class="experience">
+        <div class="exp-text">
+            <h2>Your Memories, Instantly Captured</h2>
+            <p>
+                Forget the clunky booths of the past. SNAPTAP offers a sleek, open-air 
+                interactive photo booth experience designed for modern events.
+            </p>
+            <ul class="exp-list">
+                <li>➔ High-Resolution DSLR Quality</li>
+                <li>➔ Instant Social Media Sharing</li>
+                <li>➔ Custom Designed Photo Strips</li>
+            </ul>
+            <a href="#gallery" class="btn btn-outline">See Examples</a>
+        </div>
+        
+        <div class="exp-images">
+            <img src="https://images.unsplash.com/photo-1533294160622-d5fece760d31?auto=format&fit=crop&w=600&q=80" alt="Photo Strip 1" class="photo-strip strip-1">
+            <img src="https://images.unsplash.com/photo-1527529482837-4698179dc6ce?auto=format&fit=crop&w=600&q=80" alt="Photo Strip 2" class="photo-strip strip-2">
+        </div>
+    </section>
+
+    <section class="features">
+        <h2>Why Choose Snaptap?</h2>
+        <div class="feature-grid">
+            <div class="feature-item">
+                <h3>Interactive Touch</h3>
+                <p>Guests can sign photos, add digital props, and interact directly with the mirror/screen.</p>
+            </div>
+            <div class="feature-item">
+                <h3>Instant Sharing</h3>
+                <p>Send photos directly to your phone via Text or Email immediately after the snap.</p>
+            </div>
+            <div class="feature-item">
+                <h3>Premium Props</h3>
+                <p>Curated props that match your event's theme, not just cheap plastic.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="gallery" class="gallery">
+        <h2>Forever Moments</h2>
+        <p>That last a lifetime.</p>
+        
+        <div class="gallery-grid">
+            <div class="gallery-item"><img src="https://images.unsplash.com/photo-1546195658-c42294a50995?auto=format&fit=crop&w=500&q=60" alt="Event Photo"></div>
+            <div class="gallery-item"><img src="https://images.unsplash.com/photo-1519671482538-581b12ed2a33?auto=format&fit=crop&w=500&q=60" alt="Event Photo"></div>
+            <div class="gallery-item"><img src="https://images.unsplash.com/photo-1514525253440-b393452e8d26?auto=format&fit=crop&w=500&q=60" alt="Event Photo"></div>
+            <div class="gallery-item"><img src="https://images.unsplash.com/photo-1470225620780-dba8ba36b745?auto=format&fit=crop&w=500&q=60" alt="Event Photo"></div>
+        </div>
+    </section>
+
+    <footer id="contact">
+        <span class="footer-logo">SNAPTAP</span>
+        <div class="footer-links">
+            <a href="#">Instagram</a>
+            <a href="#">Facebook</a>
+            <a href="#">Email Us</a>
+        </div>
+        <p class="copyright">© 2024 Snaptap Photo Booth Service. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
